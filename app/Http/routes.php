@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    View::make('index'); // will return app/views/index.php
+//    return view('welcome');
+});
+
+// API ROUTES ==================================
+Route::group(array('prefix' => 'api'), function() {
+
+});
+
+// CATCH ALL ROUTE =============================
+// all routes that are not home or api will be redirected to the frontend
+// this allows angular to route them
+App::missing(function($exception) {
+    return View::make('index');
 });
