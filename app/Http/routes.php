@@ -16,7 +16,8 @@ Route::get('/', function () {
 //    return view('welcome');
 });
 
-// API ROUTES ==================================
+//// API ROUTES ==================================
 Route::group(array('prefix' => 'api'), function() {
-
+    Route::resource('users', 'UserController',
+        array('only' => array('index')));
 });
