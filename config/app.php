@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY', 'iTKh2tz2HcBAc3knajCoC7DH2dLGrgZl'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Base\Providers\AppServiceProvider::class,
+        Base\Providers\EventServiceProvider::class,
+        Base\Providers\RouteServiceProvider::class,
 
     ],
 

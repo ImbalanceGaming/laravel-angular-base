@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Base\Events;
 
 abstract class Event
 {
