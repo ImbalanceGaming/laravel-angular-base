@@ -5,3 +5,4 @@ Homestead.yaml
 .idea/
 composer.phar
 public/*
+_ide_helper.php
