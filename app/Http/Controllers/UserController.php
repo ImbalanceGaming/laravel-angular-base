@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use Base\Http\Requests;
 use Base\Http\Controllers\Controller;
-use Models\Base\User;
+use Base\Models\User;
 use PhpParser\Comment;
 
 class UserController extends Controller
