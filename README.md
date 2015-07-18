@@ -1,7 +1,7 @@
 # Laravel Base Project
 
 ## Description
-Base setup for projects Laravel projects
+Base setup for projects using Laravel.
 
 Make sure not to use this base project directly instead follow the instructions at [this page](https://help.github.com/articles/duplicating-a-repository/).
 This will create a duplicate of this repo in a new repo that wont effect this repo.
@@ -29,8 +29,8 @@ App still not working? See laravel docs, turn on debug in the .env file and goog
 ## Useful commands
 * **_php artisan cache:clear_** clears cache of app.
 * **_php artisan routes_** shows apps current routes.
-* **_php artisan clear-compiled_** clears complied classes, useful if you just added a new controller
-* **_php artisan optimize_** does the opposite of above
+* **_php artisan clear-compiled_** clears complied classes, useful if you just added a new controller.
+* **_php artisan optimize_** does the opposite of above.
 
 ## Resources
 * [Laravel docs](http://laravel.com/docs/5.1)
