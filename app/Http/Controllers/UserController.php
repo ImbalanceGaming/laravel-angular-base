@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Base\Http\Requests;
 use Base\Http\Controllers\Controller;
 use Base\Models\User;
+use Illuminate\Support\Facades\Response;
 use PhpParser\Comment;
 
 class UserController extends Controller
@@ -18,7 +19,10 @@ class UserController extends Controller
      */
     public function index()
     {
-        return response()->json(User::all());
+        $users = User::all();
+        return \Response::json([
+            'data' => $users->toArray()
+        ], 200);
     }
 
     /**
