@@ -19,7 +19,7 @@ This will create a duplicate of this repo in a new repo that wont effect this re
 2. Run composer install to pull down components into the vendor folder.
 3. Set storage and bootstrap/cache folders to be publicly read/write/executable **_sudo chmod -R 777 <folder name>_**.
 4. Take a copy of the .env.save file and name it .env **_sudo cp .env.save .env_**, this file contains all configuration options for laravel.
-5. Run the **_php artisan key:generate command_** to get a new application key, this should then be set in your .env file if it is not then set it.
+5. Run the **_php artisan key:generate_** command to get a new application key, this should then be set in your .env file if it is not then set it.
 6. Change the database config in the .env file as well to desired database.
 7. Rename your new app to something appropriate using the **_php artisan app:name <App Name>_** command.
 8. If the app isn't working after the above command check the namespaces on files as it changes them.
