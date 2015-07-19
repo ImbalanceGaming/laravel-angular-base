@@ -144,6 +144,11 @@ return [
         Base\Providers\EventServiceProvider::class,
         Base\Providers\RouteServiceProvider::class,
 
+        /*
+         * IDE Helper
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
     ],
 
     /*
