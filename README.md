@@ -31,6 +31,8 @@ App still not working? See laravel docs, turn on debug in the .env file and goog
 ## PHPStorm
 When running the composer install or update command a **_ide_helper.php_** file is generated that helps phpStorm recognise methods built by the factories.
 
+You will also want to install the PHPStorm Laravel plugin, see [this link](http://blog.jetbrains.com/phpstorm/2015/01/laravel-development-using-phpstorm/) for more details.
+
 You can also run the **_sudo php artisan ide-helper:models_** command to auto generate model doc blocks.
 
 See the link in the resources section for more info.
