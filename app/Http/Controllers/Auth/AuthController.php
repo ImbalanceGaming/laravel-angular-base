@@ -2,7 +2,7 @@
 
 namespace Base\Http\Controllers\Auth;
 
-use Base\User;
+use Base\Models\User;
 use Validator;
 use Base\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -26,7 +26,6 @@ class AuthController extends Controller
     /**
      * Create a new authentication controller instance.
      *
-     * @return void
      */
     public function __construct()
     {
