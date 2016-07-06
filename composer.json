@@ -10,7 +10,12 @@
         "barryvdh/laravel-ide-helper": "^2.0",
         "doctrine/dbal": "~2.3",
         "tymon/jwt-auth": "0.5.*",
-        "barryvdh/laravel-cors": "^0.8.0"
+        "barryvdh/laravel-cors": "^0.8.0",
+        "infyomlabs/laravel-generator": "dev-master",
+        "laravelcollective/html": "5.2.*",
+        "infyomlabs/core-templates": "dev-master",
+        "infyomlabs/swagger-generator": "dev-master",
+        "jlapp/swaggervel": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
