@@ -12,12 +12,5 @@
 */
 
 Route::get('/', function () {
-    View::make('index'); // will return app/views/index.php
-//    return view('welcome');
-});
-
-//// API ROUTES ==================================
-Route::group(array('prefix' => 'api'), function() {
-    Route::resource('users', 'UserController',
-        array('only' => array('index')));
+    return view('welcome');
 });
