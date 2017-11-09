@@ -15,7 +15,8 @@
         "laravelcollective/html": "5.2.*",
         "infyomlabs/core-templates": "dev-master",
         "infyomlabs/swagger-generator": "dev-master",
-        "jlapp/swaggervel": "dev-master"
+        "jlapp/swaggervel": "dev-master",
+        "yajra/laravel-datatables-oracle": "~6.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -31,12 +32,14 @@
             "database"
         ],
         "psr-4": {
-            "Base\\": "app/"
+            "ApiBase\\": "app/"
         }
     },
     "autoload-dev": {
         "classmap": [
-            "tests/TestCase.php"
+            "tests/TestCase.php",
+            "tests/ApiTestTrait.php",
+            "tests/traits"
         ]
     },
     "scripts": {

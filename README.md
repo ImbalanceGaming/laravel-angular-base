@@ -20,11 +20,12 @@ This will create a duplicate of this repo in a new repo that wont effect this re
 3. Set storage and bootstrap/cache folders to be publicly read/write/executable **_sudo chmod -R 777 "folder name"_**.
 4. Take a copy of the .env.save file and name it .env **_sudo cp .env.save .env_**, this file contains all configuration options for laravel.
 5. Run the **_php artisan key:generate_** command to get a new application key, this should then be set in your .env file if it is not then set it.
-6. Change the database config in the .env file as well to desired database.
-7. Rename your new app to something appropriate using the **_php artisan app:name "App Name"_** command.
-8. Run the **_composer dump-autoload_** command to rebuild composer autoload classes.
-8. If the app isn't working after the above command check the namespaces on files as it changes them.
-9. You can also do a **_sudo tail -f /var/log/apahce2/error.log_** to see if there are errors.
+6. Run the **_php artisan jwt:generate_** command to get a new key for the JWT token auth
+7. Change the database config in the .env file as well to desired database.
+8. Rename your new app to something appropriate using the **_php artisan app:name "App Name"_** command.
+9. Run the **_composer dump-autoload_** command to rebuild composer autoload classes.
+10. If the app isn't working after the above command check the namespaces on files as it changes them.
+11. You can also do a **_sudo tail -f /var/log/apahce2/error.log_** to see if there are errors.
 
 App still not working? See laravel docs, turn on debug in the .env file and google search any errors you see.
 

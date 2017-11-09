@@ -59,7 +59,7 @@ return [
         'providers' => [
                 'users' => [
                         'driver' => 'eloquent',
-                        'model' => Base\Models\User::class,
+                        'model' => ApiBase\Models\User::class,
                 ],
             // 'users' => [
             //     'driver' => 'database',

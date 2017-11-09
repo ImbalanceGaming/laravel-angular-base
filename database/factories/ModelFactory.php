@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(Base\User::class, function ($faker) {
+$factory->define(ApiBase\User::class, function ($faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,
